@@ -1,10 +1,9 @@
-public class Truck {
+public class Truck extends Transport{
 
-    public String modelName;
-    public int wheelsCount;
+@Override
 
     public void updateTyre() {
-        System.out.println("Меняем покрышку");
+        System.out.println("Меняем покрышку у грузовика");
     }
 
     public void checkEngine() {

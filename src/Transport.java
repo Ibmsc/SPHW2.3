@@ -1,8 +1,6 @@
-public abstract class Transport {
-
-    public String modelName;
-    public int wheelsCount;
-
+public interface Transport {
     public abstract void  updateTyre();
+    public abstract void checkTransport();
+
 
 }
